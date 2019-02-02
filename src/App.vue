@@ -4,6 +4,7 @@
    <Ldpage />
    <About />
    <Speakers />
+   <Sponsors />
   </div>
 </template>
 
@@ -12,7 +13,7 @@ import Header from './components/header.vue'
 import Ldpage from './components/landingpage.vue'
 import About from './components/about.vue'
 import Speakers from './components/speakers.vue'
-
+import Sponsors from './components/sponsor.vue'
 
 export default {
   name: 'app',
@@ -21,7 +22,7 @@ export default {
     Ldpage,
     About,
     Speakers,
-    
+    Sponsors,
   }
 }
 </script>
