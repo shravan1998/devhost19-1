@@ -9,7 +9,7 @@
         <div class="speaker-cards">
             
             <div class="speaker-content">
-                <img src="../assets/speakers/manjesh.jpeg" height="250px" width="250px">
+                <img src="../assets/speakers/manjesh.jpeg" height="250px" width="250px" >
                 <h1>Manjesh P Shetty</h1>
                 <div class="hl"></div>
                 <p>
@@ -111,6 +111,7 @@ body{
     overflow: hidden;
 }
 img{
+    margin-top: 25px;
     padding: 10px;
     background-color: white;
     border-radius:140px ;
