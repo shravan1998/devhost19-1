@@ -4,6 +4,7 @@
    <Ldpage />
    <About />
    <Speakers />
+   <Schedule />
    <Sponsors />
   </div>
 </template>
@@ -13,6 +14,7 @@ import Header from './components/header.vue'
 import Ldpage from './components/landingpage.vue'
 import About from './components/about.vue'
 import Speakers from './components/speakers.vue'
+import Schedule from './components/schedule.vue'
 import Sponsors from './components/sponsor.vue'
 
 export default {
@@ -22,6 +24,7 @@ export default {
     Ldpage,
     About,
     Speakers,
+    Schedule,
     Sponsors,
   }
 }
