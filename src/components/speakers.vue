@@ -89,13 +89,11 @@ export default {
 
 .title{
     margin: auto;
-    
     background-color: #292d53;
     color: white;
     font-size: 25px;
     padding-top:5px; 
     text-align: center;
-    
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -120,10 +118,8 @@ img{
 .speaker-cards{
     
     padding: 25px;
-
     width:500px;
     height: 550px;
-   
     font-family: 'Open sans',sans-serif;
     color: white;
     
@@ -135,12 +131,10 @@ img{
 }
 .speaker-content {
     background-color:#2c305e;
-    
-    
     align-items: center;
     box-shadow: 10px 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
-     display: flex;
-     flex-direction: column;
-     justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 </style>
