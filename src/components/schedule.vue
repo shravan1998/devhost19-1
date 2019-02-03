@@ -16,7 +16,7 @@
         <div id="sc1" class="schedule-1">        
             <div class="schedule-cards">
                 <div class="schedule-content">
-                    <p style="text-align: center;">day 1</p>
+                    <p style="text-align: center;">(Day 1)Breakfast</p>
                     <p style="text-align: center;">8:00 AM to 9:00 AM</p>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
@@ -78,7 +78,7 @@
         <div id="sc2" class="schedule-2" style="display:none">        
             <div class="schedule-cards">
                 <div class="schedule-content">
-                    <p style="text-align: center;">day 2</p>
+                    <p style="text-align: center;">(Day 2)Breakfast</p>
                     <p style="text-align: center;">8:00 AM to 9:00 AM</p>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
@@ -186,29 +186,9 @@ export default {
     margin-bottom: 10px;
 }
 
-.day-button-1{
-    background-color:#222646;
-    width: 100%;
-    text-decoration: none;
-    margin: auto;
-    font-size:18px; 
-    color: white;
-    border: none;
-}
-.day-button-2{
-    background-color:#222646;
-    width: 100%;
-    text-decoration: none;
-    margin: auto;
-    font-size:18px; 
-    color: white;
-    border: none;
-}
 button:focus {
     outline:0;
-    }
-
-
+}
 
 .title{
     margin: auto;
@@ -233,7 +213,7 @@ body{
 .days{
     
     font-family: 'Open Sans',sans-serif;
-    width: 70%;
+    width: 72%;
     display: flex;
     margin: auto;
     color: white;
@@ -244,9 +224,19 @@ body{
 li{ 
     display: inline;
     background-color:#222646;
-    border-radius: 10px 10px 0px 0px; 
+    border-radius: 20px 20px 0px 0px; 
+}
+
+.day-button-1, .day-button-2{
+    background-color:#222646;
+    width: 100%;
+    text-decoration: none;
+    margin: auto;
+    font-size:18px; 
+    color: white;
+    border: none;
     padding: 20px 30px;
-    
+    border-radius: 10px 10px 0px 0px;     
 }
 
 .schedule-cards{
