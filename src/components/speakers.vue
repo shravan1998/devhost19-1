@@ -19,7 +19,7 @@
         <div class="speaker-cards">
             <img src="../assets/speakers/musthu.jpeg" style="order:2">
             <div class="speaker-content" style="text-align:right; padding-right:40px;">
-                <h1>Musthak Ahmed</h1>
+                <h1>Musthaq Ahmed</h1>
                 <div class="hl"></div>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
@@ -49,7 +49,7 @@
         <div class="speaker-cards">
             <img src="../assets/speakers/chamz.jpg">
             <div class="speaker-content" >
-               <h1>chaman</h1>
+               <h1>Chaman K</h1>
                <div class="hl"></div>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
