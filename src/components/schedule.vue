@@ -8,78 +8,167 @@
     </div>
     <div class="schedule-container">
             <ul class="days">
-                <li><a>Day 1</a></li>
-                <li><a>Day 2</a></li>
+                <li id="day1" class="day1"><button  class="day-button-1"  id="bt1" @click="changescheduleday1"  >Day 1</button></li>
+                <li id="day2" class="day2" style="background-color:#292d53;"><button   id="bt2" class="day-button-2"   @click="changescheduleday2" style="background-color:#292d53;color:grey;"  >Day 2</button></li>
                 <br />
             </ul>
-            
-        <div class="schedule-cards">
-            <div class="schedule-content">
-                <p style="text-align: center;">Breakfast</p>
-                <p style="text-align: center;">8:00 AM to 9:00 AM</p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                </p>
+        
+        <div id="sc1" class="schedule-1">        
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">day 1</p>
+                    <p style="text-align: center;">8:00 AM to 9:00 AM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
             </div>
-        </div>
-        <br />
-        <div class="schedule-cards">
-            <div class="schedule-content">
-                <p style="text-align: center;">First Event</p>
-                <p style="text-align: center;">9:00 AM to 10:00 AM</p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                </p>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">First Event</p>
+                    <p style="text-align: center;">9:00 AM to 10:00 AM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
             </div>
-        </div>
-        <br />
-        <div class="schedule-cards">
-            <div class="schedule-content">
-                <p style="text-align: center;">Second Event</p>
-                <p style="text-align: center;">10:00 AM to 12:00 PM</p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                </p>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">Second Event</p>
+                    <p style="text-align: center;">10:00 AM to 12:00 PM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
             </div>
-        </div>
-        <br />
-        <div class="schedule-cards">
-            <div class="schedule-content">
-                <p style="text-align: center;">Third Event</p>
-                <p style="text-align: center;">12:00 PM to 1:00 PM</p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                </p>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">Third Event</p>
+                    <p style="text-align: center;">12:00 PM to 1:00 PM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
             </div>
-        </div>
-        <br />
-        <div class="schedule-cards">
-            <div class="schedule-content">
-                <p style="text-align: center;">Lunch</p>
-                <p style="text-align: center;">1:00 PM to 2:00 PM</p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                </p>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">Lunch</p>
+                    <p style="text-align: center;">1:00 PM to 2:00 PM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
             </div>
-        </div>
-        <br />
-        <div class="schedule-cards">
-            <div class="schedule-content">
-                <p style="text-align: center;">Fourth Event</p>
-                <p style="text-align: center;">2:00 PM to 5:00 PM</p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                </p>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">Fourth Event</p>
+                    <p style="text-align: center;">2:00 PM to 5:00 PM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
             </div>
+            <br />
         </div>
-        <br />
+        <div id="sc2" class="schedule-2" style="display:none">        
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">day 2</p>
+                    <p style="text-align: center;">8:00 AM to 9:00 AM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
+            </div>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">First Event</p>
+                    <p style="text-align: center;">9:00 AM to 10:00 AM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
+            </div>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">Second Event</p>
+                    <p style="text-align: center;">10:00 AM to 12:00 PM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
+            </div>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">Third Event</p>
+                    <p style="text-align: center;">12:00 PM to 1:00 PM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
+            </div>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">Lunch</p>
+                    <p style="text-align: center;">1:00 PM to 2:00 PM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
+            </div>
+            <br />
+            <div class="schedule-cards">
+                <div class="schedule-content">
+                    <p style="text-align: center;">Fourth Event</p>
+                    <p style="text-align: center;">2:00 PM to 5:00 PM</p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                    </p>
+                </div>
+            </div>
+            <br />
+        </div>
     </div>
+
+
+    
 </div>
 </template>
 
 <script>
 export default {
- name:'schedule'   
+ name:'schedule',
+ methods:{
+     changescheduleday2(){
+         document.getElementById("sc1").style.display='none';
+         document.getElementById("sc2").style.display='block';
+         document.getElementById("day2").style.backgroundColor='#222646';
+         document.getElementById("bt2").style.backgroundColor='#222646';
+         document.getElementById("bt2").style.color='white';
+         document.getElementById("day1").style.backgroundColor='#292d53';
+         document.getElementById("bt1").style.backgroundColor='#292d53';
+         document.getElementById("bt1").style.color='grey';
+     },
+     changescheduleday1(){
+         document.getElementById("sc1").style.display='block';
+         document.getElementById("sc2").style.display='none';
+         document.getElementById("day1").style.backgroundColor='#222646';
+         document.getElementById("bt1").style.backgroundColor='#222646';
+         document.getElementById("bt1").style.color='white';
+         document.getElementById("day2").style.backgroundColor='#292d53';
+         document.getElementById("bt2").style.backgroundColor='#292d53';
+         document.getElementById("bt2").style.color='grey';
+     }
+ }  
 }
 </script>
 
@@ -95,9 +184,31 @@ export default {
     height: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 3px;
-    
 }
+
+.day-button-1{
+    background-color:#222646;
+    width: 100%;
+    text-decoration: none;
+    margin: auto;
+    font-size:18px; 
+    color: white;
+    border: none;
+}
+.day-button-2{
+    background-color:#222646;
+    width: 100%;
+    text-decoration: none;
+    margin: auto;
+    font-size:18px; 
+    color: white;
+    border: none;
+}
+button:focus {
+    outline:0;
+    }
+
+
 
 .title{
     margin: auto;
@@ -127,19 +238,20 @@ body{
     margin: auto;
     color: white;
     background-color: #292d53;
-    font-size: 25px;
+    font-size: 15px;
 }
+
 li{ 
     display: inline;
     background-color:#222646;
-    border-radius: 20px 20px 0px 0px; 
+    border-radius: 10px 10px 0px 0px; 
     padding: 20px 30px;
     
 }
 
 .schedule-cards{
     padding: 8px 0px; 
-    border-radius: 30px 10px;
+    border-radius: 10px 10px;
     justify-content: space-evenly;
     font-family: 'Open sans',sans-serif;
     color: white;
