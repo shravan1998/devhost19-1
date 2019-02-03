@@ -3,7 +3,7 @@
 <div>
     <nav class="navbar">
         <span class="nav-opener">
-            <a href="#" @click="opensidenav">
+            <a href="#" @click="openclosesidenav">
                 <svg width="30" height="30">
                     <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
                     <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
@@ -24,7 +24,6 @@
         
     </nav>
     <div id="side-menu" class="side-nav">
-        <a href="#" id="button-close" @click="closesidenav" >&times;</a>
         <a href="#">HOME</a>
         <a href="#">ABOUT</a>
         <a href="#">SPONSORS</a>
@@ -45,22 +44,17 @@ export default {
       
     },
   methods:{
-            opensidenav(){
+            openclosesidenav(){
           
-               document.getElementById('side-menu').style.height = '283px';
+                if(document.getElementById('side-menu').style.height === '243px'){
+                    document.getElementById('side-menu').style.height = '0px';
+                }
+                else
+                    document.getElementById('side-menu').style.height = '243px';
                
               
-            },
-            closesidenav(){
-
-                document.getElementById('side-menu').style.height = '0px';
-                
             }
-
-
-
-    
-    },
+        },
 }
 
 
