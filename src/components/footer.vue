@@ -46,6 +46,11 @@
           font-size: 15px;
           font-family: 'Open Sans',sans-serif;
      }
+     a{
+        text-decoration: none;
+        padding: 10px;
+        color: white
+     }
 </style>
 
 <script>
