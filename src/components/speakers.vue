@@ -6,7 +6,7 @@
         <div class="hl"></div>
     </div>
     <div class="speaker-container">
-        <div class="speaker-cards">
+        <div class="speaker-cards" data-aos="fade-up">
             
             <div class="speaker-content">
                 <img src="../assets/speakers/manjesh.jpeg" height="250px" width="250px" >
@@ -17,7 +17,7 @@
                     </p>
             </div>
         </div>
-        <div class="speaker-cards">
+        <div class="speaker-cards" data-aos="fade-up">
             
             <div class="speaker-content" >
                 <img src="../assets/speakers/musthu.jpeg" height="250px" width="250px">
@@ -28,7 +28,7 @@
                     </p>
             </div>
         </div>
-        <div class="speaker-cards">
+        <div class="speaker-cards" data-aos="fade-up">
             
             <div class="speaker-content">
                 <img src="../assets/speakers/rumaan.png" height="250px" width="250px">
@@ -39,7 +39,7 @@
                     </p>
             </div>
         </div>
-        <div class="speaker-cards">
+        <div class="speaker-cards" data-aos="fade-up">
            
             <div class="speaker-content" >
                 <img src="../assets/speakers/abhi.png" height="250px" width="250px">
@@ -50,7 +50,7 @@
                     </p>
             </div>
         </div>
-        <div class="speaker-cards">
+        <div class="speaker-cards" data-aos="fade-up">
             
             <div class="speaker-content" >
                 <img src="../assets/speakers/chamz.jpg" height="250px" width="250px">
@@ -66,8 +66,14 @@
 </template>
 
 <script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default {
- name:'speakers'   
+ name:'speakers',
+ created(){
+        AOS.init()
+    
+    },   
 }
 </script>
 

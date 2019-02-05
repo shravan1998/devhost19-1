@@ -3,15 +3,16 @@
     <div class="title">
     <h1>About the event</h1>
     </div>
-    <div class="content">
+    <div  class="content">
+        
     
-    <p>
+    <p >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure
         sequi ipsam cum facere maxime suscipit, nam nesciunt deserunt 
        
         reprehenderit in nobis! Vitae aspernatur perspiciatis, et nostrum harum ad quia!
         </p>
-        <p>
+        <p >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla non praesentium
             necessitatibus dignissimos voluptas fugit voluptate officia, atque repellendus autem 
              quaerat labore facere veniam optio voluptates quisquam illo sit.
@@ -20,7 +21,7 @@
     </div>
     
 <div class="card-holder">
-    <div class="card-container">
+    <div class="card-container" data-aos="fade-up" data-aos-duration="500">
     <div class="card">
         <img src="../assets/cal2.png" style="width:50px">
        <h2>Exciting Workshops</h2>
@@ -34,7 +35,7 @@
 
 
 
-    <div class="card-container">
+    <div class="card-container" data-aos="fade-up" data-aos-duration="500">
     <div class="card">
          <img src="../assets/live2.png" style="width:50px">
        <h2>handson-sessions</h2>
@@ -47,7 +48,7 @@
 
 
 
-    <div class="card-container">
+    <div class="card-container" data-aos="fade-up" data-aos-duration="500">
     <div class="card">
         <img src="../assets/qa2.png" style="width:50px ">
        <h2>Q & A sessions</h2>
@@ -64,8 +65,14 @@
 </div>
 </template>
 <script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default {
-    name:'about'
+    name:'about',
+    created(){
+        AOS.init()
+    
+    },
 }
 </script>
 
