@@ -6,6 +6,7 @@
    <Speakers />
    <Schedule />
    <Sponsors />
+   <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import About from './components/about.vue'
 import Speakers from './components/speakers.vue'
 import Schedule from './components/schedule.vue'
 import Sponsors from './components/sponsor.vue'
+import Footer from './components/footer.vue'
 
 export default {
   name: 'app',
@@ -26,6 +28,7 @@ export default {
     Speakers,
     Schedule,
     Sponsors,
+    Footer
   }
 }
 </script>
