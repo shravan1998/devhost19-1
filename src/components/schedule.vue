@@ -18,9 +18,7 @@
                 <div class="schedule-content">
                     <p style="text-align: center;">(Day 1)Breakfast</p>
                     <p style="text-align: center;">8:00 AM to 9:00 AM</p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                    </p>
+                    
                 </div>
             </div>
             <br />
@@ -29,7 +27,7 @@
                     <p style="text-align: center;">Session by WTM speaker</p>
                     <p style="text-align: center;">9:00 AM to 10:00 AM</p>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                        The first session will be conducted by a speaker from Women Techmakers.
                     </p>
                 </div>
             </div>
@@ -39,7 +37,7 @@
                     <p style="text-align: center;">Session by Mozilla speaker</p>
                     <p style="text-align: center;">10:00 AM to 12:00 PM</p>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                        This session will be conducted by a speaker from Mozilla.
                     </p>
                 </div>
             </div>
@@ -49,7 +47,7 @@
                     <p style="text-align: center;">Session by Github speaker</p>
                     <p style="text-align: center;">12:00 PM to 1:00 PM</p>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                        This session will be conducted by a Github campus Expert.
                     </p>
                 </div>
             </div>
@@ -58,9 +56,7 @@
                 <div class="schedule-content">
                     <p style="text-align: center;">Lunch</p>
                     <p style="text-align: center;">1:00 PM to 2:00 PM</p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                    </p>
+                    
                 </div>
             </div>
             <br />
@@ -71,9 +67,7 @@
                 <div class="schedule-content">
                     <p style="text-align: center;">(Day 2)Breakfast</p>
                     <p style="text-align: center;">8:00 AM to 9:00 AM</p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                    </p>
+                    
                 </div>
             </div>
             <br />
@@ -82,7 +76,7 @@
                     <p style="text-align: center;">Cyber Security</p>
                     <p style="text-align: center;">9:00 AM to 10:00 AM</p>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                        This session is a workshop based on Cyber Security.
                     </p>
                 </div>
             </div>
@@ -92,7 +86,7 @@
                     <p style="text-align: center;">Second Event</p>
                     <p style="text-align: center;">10:00 AM to 12:00 PM</p>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
+                        This event is to be decided.
                     </p>
                 </div>
             </div>
@@ -103,9 +97,7 @@
                 <div class="schedule-content">
                     <p style="text-align: center;">Lunch</p>
                     <p style="text-align: center;">1:00 PM to 2:00 PM</p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                    </p>
+        
                 </div>
             </div>
             <br />
