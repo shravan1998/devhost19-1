@@ -26,7 +26,7 @@
             <br />
             <div class="schedule-cards" data-aos="fade-up">
                 <div class="schedule-content">
-                    <p style="text-align: center;">First Event</p>
+                    <p style="text-align: center;">Session by WTM speaker</p>
                     <p style="text-align: center;">9:00 AM to 10:00 AM</p>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
@@ -36,7 +36,7 @@
             <br />
             <div class="schedule-cards" data-aos="fade-up">
                 <div class="schedule-content">
-                    <p style="text-align: center;">Second Event</p>
+                    <p style="text-align: center;">Session by Mozilla speaker</p>
                     <p style="text-align: center;">10:00 AM to 12:00 PM</p>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
@@ -46,7 +46,7 @@
             <br />
             <div class="schedule-cards" data-aos="fade-up">
                 <div class="schedule-content">
-                    <p style="text-align: center;">Third Event</p>
+                    <p style="text-align: center;">Session by Github speaker</p>
                     <p style="text-align: center;">12:00 PM to 1:00 PM</p>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
@@ -64,16 +64,7 @@
                 </div>
             </div>
             <br />
-            <div class="schedule-cards" data-aos="fade-up">
-                <div class="schedule-content">
-                    <p style="text-align: center;">Fourth Event</p>
-                    <p style="text-align: center;">2:00 PM to 5:00 PM</p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                    </p>
-                </div>
-            </div>
-            <br />
+            
         </div>
         <div id="sc2" class="schedule-2" style="display:none">        
             <div class="schedule-cards" >
@@ -88,7 +79,7 @@
             <br />
             <div id="card-1" class="schedule-cards" data-aos="fade-up" data-aos-anchor=".schedule-cards">
                 <div  class="schedule-content" >
-                    <p style="text-align: center;">First Event</p>
+                    <p style="text-align: center;">Cyber Security</p>
                     <p style="text-align: center;">9:00 AM to 10:00 AM</p>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
@@ -106,15 +97,7 @@
                 </div>
             </div>
             <br />
-            <div id="card-3" class="schedule-cards" data-aos="fade-up" data-aos-anchor=".schedule-cards">
-                <div class="schedule-content">
-                    <p style="text-align: center;">Third Event</p>
-                    <p style="text-align: center;">12:00 PM to 1:00 PM</p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                    </p>
-                </div>
-            </div>
+            
             <br />
             <div id="card-4" class="schedule-cards" data-aos="fade-up" data-aos-anchor=".schedule-cards">
                 <div class="schedule-content">
@@ -126,16 +109,8 @@
                 </div>
             </div>
             <br />
-            <div id="card-5"  class="schedule-cards" data-aos="fade-up" data-aos-anchor=".schedule-cards">
-                <div class="schedule-content">
-                    <p style="text-align: center;">Fourth Event</p>
-                    <p style="text-align: center;">2:00 PM to 5:00 PM</p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta minima earum, veniam excepturi error, culpa unde sed, ea sunt iusto autem neque repudiandae sequi libero ab. Repellendus, repellat officia.
-                    </p>
-                </div>
-            </div>
-            <br />
+            
+            
         </div>
     </div>
 
